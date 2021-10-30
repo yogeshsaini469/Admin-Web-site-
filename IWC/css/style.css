@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.iwc{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+}
+.iwc p:first-child{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+}
+.iwc p:last-child {
+    font-size: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+.user{
+    text-align: center;
+    margin-top: 40px;
+}
+.user p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.pub{
+    text-align: center;
+}
+.pub p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.pub input{
+    text-align: left;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    width: 80%;
+    border-radius: 3px;
+    height: 35px;
+    margin-bottom: 50px;
+}
+.pub input[type=text]:focus {
+        outline: purple;
+        border: 2px solid purple;
+        border-radius: 3px;
+  }
+.bar{
+    
+    width: 100%;
+    height: 40px;
+    margin: auto;
+}
+.bar:hover{
+    background: black;
+    opacity: 0.3;
+}
+.bar i{
+    margin-top: 12px;
+   text-align: center;
+   margin-left: 80px;
+    
+}
+.bar a{
+    margin-left: 15px; 
+    text-decoration: none;
+    color: white;
+}
+.vertical-scrollable {
+    width: 25%;
+    height: 605px;
+    overflow-y: scroll;
+    }
+.girl{
+    max-width: 25px;
+    border-radius: 30px;
+}
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card span{
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.card span:last-child{
+    position: absolute;
+    right: -10px;
+    top: -17px;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+    text-align: center;
+    border-radius: 100px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border: 3px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.inl{
+    display: inline-flex;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bg1{
+    background-color: rgb(231, 231, 231);
+}
+.bg1 h6{
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.icon i{ 
+    color: gray;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon i:hover{
+    cursor: pointer;
+    color: black;
+}
+.icon p{
+    display: inline;
+    position: relative;
+    font-size: 10px;
+    bottom: 1px;
+    left: 0px;
+    color: gray;
+}
+.pd{
+    background-color: black;
+    opacity: 0.5;
+    position:absolute;
+    top: 56px;
+    width: 100%;
+    text-align: center;
+}
+.pd p{
+    display: inline;
+    color: white;
+    font-size: 12px;
+    opacity: 1;
+}
+.prd{
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 30px;
+    margin-top: 9px;
+}
+#cards-container::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+.inl1{
+    display: inline-flex;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.inl1 p{
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.apr{
+    position: absolute;
+    background: white;
+    bottom: 10px;
+    right: 10px;
+    width: 40%;
+    border-radius: 2px;
+}
+.apr i{
+    margin-left: 13px;
+}
+.apr i:first-child{
+    color: green;
+}
+.apr i:last-child{
+    color: red;
+}
+.apr i:hover{
+    cursor: pointer;
+
+}
+.appro{
+    position: relative; 
+    right: -690px; 
+    bottom:50px; 
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+}
+.appro:hover{
+    cursor: pointer;
+    color: black;
+}
+#ram{
+    right: 0px;
+}
